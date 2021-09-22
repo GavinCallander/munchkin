@@ -1,1 +1,7 @@
-export const Picker = props => (<div></div>);
+export const Picker = props => {
+    return (
+        <div className="picker">
+
+        </div>
+    )
+};

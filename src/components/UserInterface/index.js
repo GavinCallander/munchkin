@@ -14,10 +14,13 @@ export const UserInterface = () => {
     const [questionIndex, setQuestionIndex] = useState(null);
     // non-state variables
     let content;
+
+
+    // conditional rendering of content
     // check for truthy/falsey but cover JS 0 behavior
     // render the Get Started button if nothing has happened or in default position
     if (!questionIndex && questionIndex !== 0) {
-        content = <Button />
+        content = <Button func={() => setQuestionIndex(0)} text="Get Started" />
     }
     // render the display if user selection is complete i.e. index is does not correspond to a question
     else if (questionIndex > DATA.questions.length - 1) {

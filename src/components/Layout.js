@@ -1,6 +1,6 @@
 export const Footer = () => (
     <div className="footer">
-        <p className="">All rights reserved No Beard Development 2020</p>
+        <p className="">All rights reserved No Beard Development 2021</p>
     </div>
 );
 
