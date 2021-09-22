@@ -1,0 +1,276 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Japanese",
+            "location": "Tan-Tan (Ponce City Market)",
+            "name": "Ramen"
+        },
+        {
+            "id": 1,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Japanese",
+            "location": "Tan-Tan (Ponce City Market)",
+            "name": "Dan Dan"
+        },
+        {
+            "id": 2,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Chinese",
+            "location": "Tasty Jia (Ponce City Market)",
+            "name": "The Lunch Special"
+        },
+        {
+            "id": 3,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Italian",
+            "location": "Bellina (Ponce City Market)",
+            "name": "Pasta"
+        },
+        {
+            "id": 4,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "American",
+            "location": "H & F Burger (Ponce City Market)",
+            "name": "Burger and Fries"
+        },
+        {
+            "id": 5,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "American",
+            "location": "Kroger",
+            "name": "Goldfish"
+        },
+        {
+            "id": 6,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "American",
+            "location": "Spiller (Ponce City Market)",
+            "name": "Avocado Toast"
+        },
+        {
+            "id": 7,
+            "walkTime": "Up to 5 mins",
+            "type": "Drink",
+            "isCaffeinated": false,
+            "basicTaste": "Savory",
+            "flavor": "Fruity",
+            "location": "Kroger",
+            "name": "Cold-pressed Juice"
+        },
+        {
+            "id": 8,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "American",
+            "location": "Hops (Ponce City Market)",
+            "name": "Chicken Sandwich"
+        },
+        {
+            "id": 9,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Sweet",
+            "flavor": "Fruity",
+            "location": "Lotus (Ponce City Market)",
+            "name": "Acai Bowl"
+        },
+        {
+            "id": 10,
+            "walkTime": "5-10 mins",
+            "type": "Drink",
+            "isCaffeinated": true,
+            "basicTaste": "Sweet",
+            "flavor": "Fruity",
+            "location": "Honey Bubble",
+            "name": "Clear Bubble Tea"
+        },
+        {
+            "id": 11,
+            "walkTime": "5-10 mins",
+            "type": "Drink",
+            "isCaffeinated": true,
+            "basicTaste": "Sweet",
+            "flavor": "Creamy",
+            "location": "Honey Bubble",
+            "name": "Milk Bubble Tea"
+        },
+        {
+            "id": 12,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Sweet",
+            "flavor": "Chocolatey",
+            "location": "Saint-Germain (Ponce City Market)",
+            "name": "Chocolate Mousse"
+        },
+        {
+            "id": 13,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Sweet",
+            "flavor": "Creamy",
+            "location": "Kroger",
+            "name": "Oatmeal Cream Pie"
+        },
+        {
+            "id": 14,
+            "walkTime": "More than 10 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Sweet",
+            "flavor": "Baked Goods",
+            "location": "Bun",
+            "name": "Sweet Hut"
+        },
+        {
+            "id": 15,
+            "walkTime": "Up to 5 mins",
+            "type": "Drink",
+            "isCaffeinated": true,
+            "basicTaste": "Sweet",
+            "flavor": "Creamy",
+            "location": "Starbucks",
+            "name": "Matcha Latte"
+        },
+        {
+            "id": 16,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Sweet",
+            "flavor": "Baked Goods",
+            "location": "Kroger",
+            "name": "Donut"
+        },
+        {
+            "id": 17,
+            "walkTime": "Up to 5 mins",
+            "type": "Drink",
+            "isCaffeinated": true,
+            "basicTaste": "Sweet",
+            "flavor": "Chocolatey",
+            "location": "Spiller (Ponce City Market)",
+            "name": "Java Cream"
+        },
+        {
+            "id": 18,
+            "walkTime": "Up to 5 mins",
+            "type": "Drink",
+            "isCaffeinated": false,
+            "basicTaste": "Savory",
+            "flavor": "American",
+            "location": "Bottiwalla (Ponce City Market)",
+            "name": "Mango Lassi"
+        },
+        {
+            "id": 19,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Middle Eastern",
+            "location": "Rina",
+            "name": "Pita"
+        },
+        {
+            "id": 20,
+            "walkTime": "5-10 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Mexican",
+            "location": "Gusto",
+            "name": "Tacos"
+        },
+        {
+            "id": 21,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Sweet",
+            "flavor": "Baked Goods",
+            "location": "Saint-Germain (Ponce City Market)",
+            "name": "Financier"
+        },
+        {
+            "id": 22,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": true,
+            "basicTaste": "Sweet",
+            "flavor": "Creamy",
+            "location": "Rina",
+            "name": "Turkish Coffee Shake"
+        },
+        {
+            "id": 23,
+            "walkTime": "5-10 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "Healthy",
+            "location": "Sweet Green",
+            "name": "Buffalo Chicken Bowl"
+        },
+        {
+            "id": 24,
+            "walkTime": "Up to 5 mins",
+            "type": "Food",
+            "isCaffeinated": "n/a",
+            "basicTaste": "Savory",
+            "flavor": "American",
+            "location": "Dub's Fish Camp (Ponce City Market)",
+            "name": "Lobster Roll"
+        }
+    ],
+    "questions": [
+        {
+            "question": "How long a walk do you have time for?",
+            "field": "walkTime"
+        },
+        {
+            "question": "Would you prefer something to eat or to drink?",
+            "field": "type"
+        },
+        {
+            "question": "Okay, is caffeine on the agenda?",
+            "field": "isCaffeinated"
+        },
+        {
+            "question": "Gotcha! Now, sweet or savory?",
+            "field": "basicTaste"
+        },
+        {
+            "question": "Excellent! So, which of these options appeal to you?",
+            "field": "flavor"
+        }
+    ]
+}
