@@ -7,6 +7,8 @@ import { Picker } from './Picker';
 
 export const UserInterface = () => {
     return (
-        <div></div>
+        <div className="interface">
+            
+        </div>
     )
 };

@@ -1,10 +1,29 @@
 /* global */
-
-
+* {
+    box-sizing: border-box;
+}
 /* app */
-
-
+.app {
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
 /* components */
-
+.footer, .header, .interface {
+    display: flex;
+    width: 100%;
+}
+.footer, .header {
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+.interface {
+    height: 90%;
+}
 
 /* typography */
