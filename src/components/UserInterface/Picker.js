@@ -1,0 +1,1 @@
+export const Picker = props => (<div></div>);
