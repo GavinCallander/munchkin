@@ -2,7 +2,7 @@
     "items": [
         {
             "id": 0,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -12,7 +12,7 @@
         },
         {
             "id": 1,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -22,7 +22,7 @@
         },
         {
             "id": 2,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -32,7 +32,7 @@
         },
         {
             "id": 3,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -42,7 +42,7 @@
         },
         {
             "id": 4,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -52,7 +52,7 @@
         },
         {
             "id": 5,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -62,7 +62,7 @@
         },
         {
             "id": 6,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -72,7 +72,7 @@
         },
         {
             "id": 7,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Drink",
             "isCaffeinated": false,
             "basicTaste": "Savory",
@@ -82,7 +82,7 @@
         },
         {
             "id": 8,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -92,7 +92,7 @@
         },
         {
             "id": 9,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
@@ -102,7 +102,7 @@
         },
         {
             "id": 10,
-            "walkTime": "5-10 mins",
+            "walkTime": 15,
             "type": "Drink",
             "isCaffeinated": true,
             "basicTaste": "Sweet",
@@ -112,7 +112,7 @@
         },
         {
             "id": 11,
-            "walkTime": "5-10 mins",
+            "walkTime": 15,
             "type": "Drink",
             "isCaffeinated": true,
             "basicTaste": "Sweet",
@@ -122,7 +122,7 @@
         },
         {
             "id": 12,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
@@ -132,7 +132,7 @@
         },
         {
             "id": 13,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
@@ -142,7 +142,7 @@
         },
         {
             "id": 14,
-            "walkTime": "More than 10 mins",
+            "walkTime": 30,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
@@ -152,7 +152,7 @@
         },
         {
             "id": 15,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Drink",
             "isCaffeinated": true,
             "basicTaste": "Sweet",
@@ -162,7 +162,7 @@
         },
         {
             "id": 16,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
@@ -172,7 +172,7 @@
         },
         {
             "id": 17,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Drink",
             "isCaffeinated": true,
             "basicTaste": "Sweet",
@@ -182,7 +182,7 @@
         },
         {
             "id": 18,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Drink",
             "isCaffeinated": false,
             "basicTaste": "Savory",
@@ -192,7 +192,7 @@
         },
         {
             "id": 19,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -202,7 +202,7 @@
         },
         {
             "id": 20,
-            "walkTime": "5-10 mins",
+            "walkTime": 15,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -212,7 +212,7 @@
         },
         {
             "id": 21,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
@@ -222,7 +222,7 @@
         },
         {
             "id": 22,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": true,
             "basicTaste": "Sweet",
@@ -232,7 +232,7 @@
         },
         {
             "id": 23,
-            "walkTime": "5-10 mins",
+            "walkTime": 15,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
@@ -242,7 +242,7 @@
         },
         {
             "id": 24,
-            "walkTime": "Up to 5 mins",
+            "walkTime": 5,
             "type": "Food",
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
