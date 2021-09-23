@@ -27,9 +27,7 @@ export const UserInterface = () => {
     if (!questionIndex && questionIndex !== 0) {
         actionText = 
             <>
-                <p className="content content--landing">Hungry?</p>
-                <p className="content content--landing">Thirsty?</p>
-                <p className="content content--landing">Munchkin has you covered</p>
+                <p className="content content--landing">Food tastes better with family</p>
             </>
         content = <Button btnClass="button button--wide" func={() => setQuestionIndex(0)} text="Get Started" textClass="content content--btn--wide" />
     }
