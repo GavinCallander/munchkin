@@ -29,7 +29,7 @@ export const UserInterface = () => {
     }
     // render the display if user selection is complete i.e. index is does not correspond to a question
     else if (questionIndex > DATA.questions.length - 1) {
-        content = <Display />
+        content = <Display itemsArr={itemsArr} />
     }
     // render the picker in all other scenarios
     else {

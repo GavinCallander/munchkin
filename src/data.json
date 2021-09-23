@@ -7,7 +7,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Japanese",
-            "location": "Tan-Tan (Ponce City Market)",
+            "location": "Tan-Tan in Ponce City Market)",
             "name": "Ramen"
         },
         {
@@ -17,7 +17,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Japanese",
-            "location": "Tan-Tan (Ponce City Market)",
+            "location": "Tan-Tan in Ponce City Market)",
             "name": "Dan Dan"
         },
         {
@@ -27,7 +27,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Chinese",
-            "location": "Tasty Jia (Ponce City Market)",
+            "location": "Tasty Jia in Ponce City Market)",
             "name": "The Lunch Special"
         },
         {
@@ -37,7 +37,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Italian",
-            "location": "Bellina (Ponce City Market)",
+            "location": "Bellina in Ponce City Market)",
             "name": "Pasta"
         },
         {
@@ -47,7 +47,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "American",
-            "location": "H & F Burger (Ponce City Market)",
+            "location": "H & F Burger in Ponce City Market",
             "name": "Burger and Fries"
         },
         {
@@ -67,14 +67,14 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "American",
-            "location": "Spiller (Ponce City Market)",
+            "location": "Spiller in Ponce City Market",
             "name": "Avocado Toast"
         },
         {
             "id": 7,
             "walkTime": 5,
             "type": "Drink",
-            "isCaffeinated": false,
+            "isCaffeinated": "false",
             "basicTaste": "Savory",
             "flavor": "Fruity",
             "location": "Kroger",
@@ -87,7 +87,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "American",
-            "location": "Hops (Ponce City Market)",
+            "location": "Hops in Ponce City Market",
             "name": "Chicken Sandwich"
         },
         {
@@ -97,14 +97,14 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
             "flavor": "Fruity",
-            "location": "Lotus (Ponce City Market)",
+            "location": "Lotus in Ponce City Market",
             "name": "Acai Bowl"
         },
         {
             "id": 10,
             "walkTime": 15,
             "type": "Drink",
-            "isCaffeinated": true,
+            "isCaffeinated": "true",
             "basicTaste": "Sweet",
             "flavor": "Fruity",
             "location": "Honey Bubble",
@@ -114,7 +114,7 @@
             "id": 11,
             "walkTime": 15,
             "type": "Drink",
-            "isCaffeinated": true,
+            "isCaffeinated": "true",
             "basicTaste": "Sweet",
             "flavor": "Creamy",
             "location": "Honey Bubble",
@@ -127,7 +127,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
             "flavor": "Chocolatey",
-            "location": "Saint-Germain (Ponce City Market)",
+            "location": "Saint-Germain in Ponce City Market)",
             "name": "Chocolate Mousse"
         },
         {
@@ -154,7 +154,7 @@
             "id": 15,
             "walkTime": 5,
             "type": "Drink",
-            "isCaffeinated": true,
+            "isCaffeinated": "true",
             "basicTaste": "Sweet",
             "flavor": "Creamy",
             "location": "Starbucks",
@@ -174,20 +174,20 @@
             "id": 17,
             "walkTime": 5,
             "type": "Drink",
-            "isCaffeinated": true,
+            "isCaffeinated": "true",
             "basicTaste": "Sweet",
             "flavor": "Chocolatey",
-            "location": "Spiller (Ponce City Market)",
+            "location": "Spiller in Ponce City Market)",
             "name": "Java Cream"
         },
         {
             "id": 18,
             "walkTime": 5,
             "type": "Drink",
-            "isCaffeinated": false,
+            "isCaffeinated": "false",
             "basicTaste": "Savory",
-            "flavor": "American",
-            "location": "Bottiwalla (Ponce City Market)",
+            "flavor": "Fruity",
+            "location": "Bottiwalla in Ponce City Market)",
             "name": "Mango Lassi"
         },
         {
@@ -217,14 +217,14 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
             "flavor": "Baked Goods",
-            "location": "Saint-Germain (Ponce City Market)",
+            "location": "Saint-Germain in Ponce City Market)",
             "name": "Financier"
         },
         {
             "id": 22,
             "walkTime": 5,
             "type": "Food",
-            "isCaffeinated": true,
+            "isCaffeinated": "true",
             "basicTaste": "Sweet",
             "flavor": "Creamy",
             "location": "Rina",
@@ -247,7 +247,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "American",
-            "location": "Dub's Fish Camp (Ponce City Market)",
+            "location": "Dub's Fish Camp in Ponce City Market)",
             "name": "Lobster Roll"
         }
     ],
