@@ -4,21 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    background-image: url('./img/funky-lines.png');
+    height: 100vh;
+    background-color: rgba(38, 217, 86, 0.1);
 }
-@media only screen
-    and (max-width: 768px)
-    {
-        .app {
-            padding-bottom: env(safe-area-inset-bottom);
-            padding-left: env(safe-area-inset-left);
-            padding-right: env(safe-area-inset-right);
-            padding-top: env(safe-area-inset-top);
-            width: 100vw;
-            height: 100vh;
-        }
-    }
 /* components */
 .footer, .header, .interface {
     display: flex;
@@ -31,22 +19,26 @@
     flex-direction: row;
 }
 .footer {
-    height: 5%;
+    height: 15%;
     color: #26D956;
 }
 .header {
+    position: fixed;
+    top: 0;
     height: 10%;
 }
 /* interface-specific */
 .interface {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 90%;
 }
 .action-container {
     width: 90%;
+    min-height: 20%;
     text-align: center;
+    /* border: 1px solid black; */
 }
 .display {
     display: flex;
@@ -97,6 +89,9 @@
 .content--action {
     font-size: 1.3rem;
 }
+.content--landing {
+    font-size: 1.6rem;
+}
 .content--btn {
     font-size: 1.3rem;
 }
@@ -123,3 +118,7 @@
 #kin {
     color: #A9D926;
 }
+
+/* * {
+    border: 1px solid black;
+} */
