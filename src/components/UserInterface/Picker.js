@@ -5,62 +5,38 @@ export const Picker = props => {
     // destructure props for readability
     // both of these will be used to render the different options at each stage of the user flow
     const { fields, questionIndex, itemsArr, setQuestionIndex } = props;
+    
     // variable declarations
     let currentField = fields[questionIndex];
     let options;
     let optionsArr = [];
 
-    // helper functions
-    // primary selection helper function
+    // helper function for user selection flow
     const handleSelection = (e) => {
-        // for readability, set the target's name to a variable
+        // create indicesToRemove as an array to store indices of non-qualifying items
+        // for readability, store the target's name as a variable as well
+        let indicesToRemove = [];
         let selection = e.currentTarget.getAttribute("name");
-        // fire function to handle user's selection based on the current questionIndex
-        if (questionIndex === 0) {
-            handleWalkTime(selection);
-        }
-        else {
-            handleItemRemoval(selection);
-        }
-        e.currentTarget.getAttribute("name") === "Food" ? setQuestionIndex(questionIndex + 2) : setQuestionIndex(questionIndex + 1);
-    };
-    // helper functions to be used in primary selection function
-    // which are shared by multiple stages of the user flow
-    const handleItemRemoval = selection => {
-        let indicesToRemove = [];
-        // loop over itemsArr
+        // loop over the itemsArr using a standard for loop so we have easy access to indices
         for (let i = 0; i < itemsArr.length; i++) {
-            // if the value of selection is not equal to the value of currentField
-            if (itemsArr[i][currentField] !== selection) {
-                // add to indicesToRemove
-                // using unshift as opposed to push allows for splicing from the end of the array more quickly
-                // removes possibility of changing indices and splicing the incorrect items
+            // using currentField of the current item and add non-qualifying indices to indicesToRemove
+            // in both cases, unshift rather than push to make splicing possible
+            // if questionIndex is 0, check for values higher than selection
+            if (questionIndex === 0 && itemsArr[i][currentField] > selection) {
+                indicesToRemove.unshift(i);
+            }
+            // otherwise, check for inequality
+            else if (itemsArr[i][currentField] !== selection) {
                 indicesToRemove.unshift(i);
             };
         };
-        // remove all stored indices
+        // once completed, iterate of indicesToRemove and splice from itemsArr
         indicesToRemove.forEach(index => {
             itemsArr.splice(index, 1);
         });
-    };
-    // which handle one specific job
-    // function to remove items outside of a user's selected walkTime range
-    const handleWalkTime = selection => {
-        let indicesToRemove = [];
-        // loop over itemsArr
-        for (let i = 0; i < itemsArr.length; i++) {
-            // if the walkTime of an item is greater than the selection value
-            if (itemsArr[i][currentField] > selection) {
-                // add to indicesToRemove
-                // using unshift as opposed to push allows for splicing from the end of the array more quickly
-                // removes possibility of changing indices and splicing the incorrect items
-                indicesToRemove.unshift(i);
-            };
-        };
-        // once loop is completed, splice each index to remove from itemsArr
-        indicesToRemove.forEach(index => {
-            itemsArr.splice(index, 1);
-        });
+        // finally, cover the incrementation of a selection of "Food"
+        // if selection is "Food" increment by two, otherwise by one
+        selection === "Food" ? setQuestionIndex(questionIndex + 2) : setQuestionIndex(questionIndex + 1);
     };
 
     // conditional rendering of options

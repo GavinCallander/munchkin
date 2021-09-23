@@ -3,9 +3,7 @@ export const Button = props => {
     let { func, questionIndex, text } = props;
     let content;
     let name;
-
-    console.info(text);
-
+    
     // conditional rendering of content
     if (questionIndex === 0) {
         content = `Up to ${text} minutes`
