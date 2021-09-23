@@ -25,10 +25,7 @@ export const UserInterface = () => {
     // check for truthy/falsey but cover JS 0 behavior
     // render the Get Started button if nothing has happened or in default position
     if (!questionIndex && questionIndex !== 0) {
-        actionText = 
-            <>
-                <p className="content content--landing">Food tastes better with family</p>
-            </>
+        actionText = <p className="content content--landing">Because food tastes better with family</p>
         content = <Button btnClass="button button--wide" func={() => setQuestionIndex(0)} text="Get Started" textClass="content content--btn--wide" />
     }
     // render the display if user selection is complete i.e. index is does not correspond to a question
