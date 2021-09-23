@@ -10,14 +10,13 @@ export const Button = props => {
         name = text.toString();
     }
     else if (questionIndex === 2) {
-        console.info(text);
         text === true ?
             content = "Yes! Please! Caffeine!":
             content = "Any more and I'd be pretty wired";
     }
     else {
         content = text;
-        name = "Get Started"
+        name = text;
     }
 
     return (

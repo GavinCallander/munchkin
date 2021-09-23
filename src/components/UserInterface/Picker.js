@@ -5,7 +5,7 @@ export const Picker = props => {
     // destructure props for readability
     // both of these will be used to render the different options at each stage of the user flow
     const { fields, questionIndex, itemsArr, setQuestionIndex } = props;
-    // variables
+    // variable declarations
     let currentField = fields[questionIndex];
     let options;
     let optionsArr = [];
@@ -19,9 +19,32 @@ export const Picker = props => {
         if (questionIndex === 0) {
             handleWalkTime(selection);
         }
+        else {
+            handleItemRemoval(selection);
+        }
         e.currentTarget.getAttribute("name") === "Food" ? setQuestionIndex(questionIndex + 2) : setQuestionIndex(questionIndex + 1);
     };
     // helper functions to be used in primary selection function
+    // which are shared by multiple stages of the user flow
+    const handleItemRemoval = selection => {
+        let indicesToRemove = [];
+        // loop over itemsArr
+        for (let i = 0; i < itemsArr.length; i++) {
+            // if the value of selection is not equal to the value of currentField
+            if (itemsArr[i][currentField] !== selection) {
+                // add to indicesToRemove
+                // using unshift as opposed to push allows for splicing from the end of the array more quickly
+                // removes possibility of changing indices and splicing the incorrect items
+                indicesToRemove.unshift(i);
+            };
+        };
+        // remove all stored indices
+        indicesToRemove.forEach(index => {
+            itemsArr.splice(index, 1);
+        });
+    };
+    // which handle one specific job
+    // function to remove items outside of a user's selected walkTime range
     const handleWalkTime = selection => {
         let indicesToRemove = [];
         // loop over itemsArr
@@ -38,7 +61,6 @@ export const Picker = props => {
         indicesToRemove.forEach(index => {
             itemsArr.splice(index, 1);
         });
-        console.info(itemsArr);
     };
 
     // conditional rendering of options
