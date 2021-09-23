@@ -1,20 +1,24 @@
 /* app */
 .app {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh; */
     background-image: url('./img/funky-lines.png');
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 812px) 
-    and (-webkit-min-device-pixel-ratio: 3) { 
-        width: 100vw;
-        height: 100vh;
-    }
 }
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-devive-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .app {
+            width: 100vw;
+            height: 100vh;
+            background-color: red;
+        }
+    }
+
+
 
 /* components */
 .footer, .header, .interface {
