@@ -25,7 +25,7 @@ export const UserInterface = () => {
     // check for truthy/falsey but cover JS 0 behavior
     // render the Get Started button if nothing has happened or in default position
     if (!questionIndex && questionIndex !== 0) {
-        content = <Button btnClass="button button--wide" func={() => setQuestionIndex(0)} text="Get Started" />
+        content = <Button btnClass="button button--wide" func={() => setQuestionIndex(0)} text="Get Started" textClass="content content--btn--wide" />
     }
     // render the display if user selection is complete i.e. index is does not correspond to a question
     else if (questionIndex > DATA.questions.length - 1) {
@@ -33,7 +33,7 @@ export const UserInterface = () => {
     }
     // render the picker in all other scenarios
     else {
-        actionText = <p className="">{DATA.questions[questionIndex].question}</p>
+        actionText = <p className="content content--action">{DATA.questions[questionIndex].question}</p>
         content = <Picker 
                     fields={fields}
                     itemsArr={itemsArr} 
@@ -44,7 +44,9 @@ export const UserInterface = () => {
 
     return (
         <div className="interface">
-            { actionText }
+            <div className="action-container">
+                { actionText }
+            </div>
             { content }
         </div>
     )

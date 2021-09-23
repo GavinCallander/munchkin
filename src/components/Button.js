@@ -1,6 +1,6 @@
 export const Button = props => {
     // handle props destructuring and variables
-    let { btnClass, func, questionIndex, text } = props;
+    let { btnClass, func, questionIndex, text, textClass } = props;
     let content;
     let name;
     
@@ -26,7 +26,7 @@ export const Button = props => {
 
     return (
         <div className={btnClass} name={name} onClick={e => func(e)}>
-            <p className="">{content}</p>
+            <p className={textClass}>{content}</p>
         </div>
     )
 };

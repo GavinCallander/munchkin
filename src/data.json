@@ -7,7 +7,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Japanese",
-            "location": "Tan-Tan in Ponce City Market)",
+            "location": "Tan-Tan in Ponce City Market",
             "name": "Ramen"
         },
         {
@@ -17,7 +17,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Japanese",
-            "location": "Tan-Tan in Ponce City Market)",
+            "location": "Tan-Tan in Ponce City Market",
             "name": "Dan Dan"
         },
         {
@@ -27,7 +27,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Chinese",
-            "location": "Tasty Jia in Ponce City Market)",
+            "location": "Tasty Jia in Ponce City Market",
             "name": "The Lunch Special"
         },
         {
@@ -37,7 +37,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "Italian",
-            "location": "Bellina in Ponce City Market)",
+            "location": "Bellina in Ponce City Market",
             "name": "Pasta"
         },
         {
@@ -127,7 +127,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
             "flavor": "Chocolatey",
-            "location": "Saint-Germain in Ponce City Market)",
+            "location": "Saint-Germain in Ponce City Market",
             "name": "Chocolate Mousse"
         },
         {
@@ -177,7 +177,7 @@
             "isCaffeinated": "true",
             "basicTaste": "Sweet",
             "flavor": "Chocolatey",
-            "location": "Spiller in Ponce City Market)",
+            "location": "Spiller in Ponce City Market",
             "name": "Java Cream"
         },
         {
@@ -187,7 +187,7 @@
             "isCaffeinated": "false",
             "basicTaste": "Savory",
             "flavor": "Fruity",
-            "location": "Bottiwalla in Ponce City Market)",
+            "location": "Bottiwalla in Ponce City Market",
             "name": "Mango Lassi"
         },
         {
@@ -217,7 +217,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Sweet",
             "flavor": "Baked Goods",
-            "location": "Saint-Germain in Ponce City Market)",
+            "location": "Saint-Germain in Ponce City Market",
             "name": "Financier"
         },
         {
@@ -247,7 +247,7 @@
             "isCaffeinated": "n/a",
             "basicTaste": "Savory",
             "flavor": "American",
-            "location": "Dub's Fish Camp in Ponce City Market)",
+            "location": "Dub's Fish Camp in Ponce City Market",
             "name": "Lobster Roll"
         }
     ],

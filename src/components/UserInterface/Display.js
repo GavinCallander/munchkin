@@ -15,9 +15,9 @@ export const Display = props => {
     }
 
     return (
-        <div className="">
-            <p className="">Why not try {location}</p>
-            <p className="">I hear the {item} is great there</p>
+        <div className="display">
+            <p className="content content--action">Why not try {location}</p>
+            <p className="content content--action">I hear the {item} is great there</p>
         </div>
     )
 };

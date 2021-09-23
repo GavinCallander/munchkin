@@ -6,6 +6,8 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+    /* background-image: url('/img/funky-lines.png'); */
+    background-image: url('./img/funky-lines.png');
 }
 
 /* components */
@@ -33,28 +35,69 @@
     align-items: center;
     height: 90%;
 }
+.action-container {
+    width: 90%;
+    text-align: center;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+}
+.picker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-height: 40%;
+}
+.picker--alt {
+    flex-direction: column;
+}
+
 /* button-specific */
 .button {
+    padding: 0.2rem 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2.5rem;
-    border: 1px solid black;
-    border-radius: 5px;
+    min-width: 6rem;
+    height: 2rem;
+    background-color: #50D926;
+    color: #FBFAF5;
+    box-shadow: 0 0 1.5px 1px #50D926;
+    border-radius: 3px;
 }
 .button--wide {
-    padding: 0.2rem;
-    width: 8rem;
+    height: 2.5rem;
+    width: 10rem;
 }
 
 /* typography */
 /* Google Fonts imports */
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&display=swap');
 /* content-specific */
-
+.content {
+    font-family: 'Poppins', sans-serif;
+}
+.content--action {
+    font-size: 1.3rem;
+}
+.content--btn {
+    font-size: 1.3rem;
+}
+.content--btn--wide {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 /* title-specific */
 .heading {
-    font-family: "Concert One", sans-serif;
+    font-family: 'Concert One', sans-serif;
 }
 .heading--large {
     font-size: 2.5rem;
@@ -64,7 +107,7 @@
     font-size: 0.9rem;
     font-weight: 800;
 }
-
+/* heading-color-change */
 #munch {
     color: #50D926;
 }
