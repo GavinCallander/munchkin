@@ -4,10 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
     background-image: url('./img/funky-lines.png');
 }
 
-@media only screen
+/* @media only screen
     and (min-device-width: 375px)
     and (max-devive-width: 812px)
     and (-webkit-min-device-pixel-ratio: 3) {
@@ -16,7 +17,7 @@
             height: 100vh;
             background-color: red;
         }
-    }
+    } */
 
 
 
