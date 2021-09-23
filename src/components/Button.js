@@ -1,12 +1,28 @@
 export const Button = props => {
 
-    let { func, text } = props;
+    // handle props destructuring and variables
+    let { func, questionIndex, text } = props;
+    let content;
+    let name;
+    // conditional rendering of content
+    if (questionIndex === 0) {
+        content = `Up to ${text} minutes`
+        name = text.toString();
+    }
+    else if (questionIndex === 2) {
+        console.info(text);
+        text === true ?
+            content = "Yes! Please! Caffeine!":
+            content = "Any more and I'd be pretty wired";
+    }
+    else {
+        content = text;
+        name = "Get Started"
+    }
 
     return (
-        <div className="" onClick={func}>
-            <p className="">
-                { text }
-            </p>
+        <div className="" name={name} onClick={e => func(e)}>
+            <p className="">{content}</p>
         </div>
     )
 };

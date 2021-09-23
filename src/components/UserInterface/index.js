@@ -36,8 +36,9 @@ export const UserInterface = () => {
         actionText = <p className="">{DATA.questions[questionIndex].question}</p>
         content = <Picker 
                     fields={fields}
-                    items={itemsArr} 
-                    index={questionIndex}
+                    itemsArr={itemsArr} 
+                    questionIndex={questionIndex}
+                    setQuestionIndex={setQuestionIndex}
                     />
     };
 
