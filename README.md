@@ -1,5 +1,7 @@
 # Munchkin
 ## Getting Started
+If you want to access the live demo, you can do so [here](https://goofy-perlman-0e5a71.netlify.app/). There are no requirements before using so if you're in the vicinity of Ponce City Market in the ATL, you get a handy, dandy tool to help with your sustenance needs. Otherwise, it's a cool exercise in making you hungry or thirsty.
+
 If you want to snag this little bad boy for yourself, fork and clone the repo and get going! It's well commented (in my opinion) so should be easy enough to get your head around.
 
 If, additionally, you are one of my lil target users, data.json is your friend. Once you've updated the object, submit your pull request and I'll get it merged if everything's all good!
