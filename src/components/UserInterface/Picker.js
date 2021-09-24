@@ -14,12 +14,10 @@ export const Picker = props => {
 
     // helper function for user selection flow
     const handleSelection = (e) => {
-        console.info("Handling selection")
         // create indicesToRemove as an array to store indices of non-qualifying items
         // for readability, store the target's name as a variable as well
         let indicesToRemove = [];
         let selection = e.currentTarget.getAttribute("name");
-        console.info("declaring vars and starting loop")
         // loop over the itemsArr using a standard for loop so we have easy access to indices
         for (let i = 0; i < itemsArr.length; i++) {
             // using currentField of the current item and add non-qualifying indices to indicesToRemove
@@ -30,7 +28,6 @@ export const Picker = props => {
             // }
             if (questionIndex === 0) {
                 if (itemsArr[i][currentField] > selection) {
-                    console.info("Yay remove it", itemsArr[i][currentField], selection);
                     indicesToRemove.unshift(i);
                 }
             }
@@ -39,26 +36,21 @@ export const Picker = props => {
                 indicesToRemove.unshift(i);
             };
         };
-        console.info("indicesToRemove should be jumping", indicesToRemove);
         // once completed, iterate of indicesToRemove and splice from itemsArr
         indicesToRemove.forEach(index => {
             itemsArr.splice(index, 1);
         });
-        console.info("itemsArr should have stuff removed but also stuff left", itemsArr);
         // finally, cover the incrementation of a selection of "Food"
         // if selection is "Food" increment by two, otherwise by one
         selection === "Food" ? setQuestionIndex(questionIndex + 2) : setQuestionIndex(questionIndex + 1);
-        console.log("We just updated questionIndex");
     };
 
     // conditional rendering of options
     // start by pushing all unique options to optionsArr
     itemsArr.forEach(item => {
-        // console.info(itemsArr);
         if (!optionsArr.includes(item[currentField])) {
             optionsArr.push(item[currentField]);
         };
-        // console.info(optionsArr);
     });
     // map optionsArr to options and render using the Button component
     options = optionsArr.map((option, i) => {
