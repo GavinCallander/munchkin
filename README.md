@@ -17,6 +17,8 @@ I know.
 
 The idea was to create something in which the data structure being used could be a sort of living document and grow with their experiences and tastes while maintaining functionality throughout.
 
+Apologies if I don't cover something you want to know below. Reach out to me if that's the case and I'll get you an answer in jig time.
+
 ## Development
 Decisions around the tech to be used in the application was fairly straight forward. The decision to use React was made simple given the obvious benefits of state being able to assist with conditionally rendering questions and options, with `questionIndex` being central to the user flow. Additionally, I chose to use vanilla CSS rather than a pre-processor for the purpose of speed, although the lack of mixins is something I lamented throughout the process, as indicated by my commit messages.
 
@@ -27,7 +29,7 @@ From a design perspective, as someone who is admittedly inexperienced and lackin
 * Everyone like centered stuff
 * Don't overreach and make it terrible
 
-In my opinion, this led to a functional and "not-ugly" looking app. In the words of Borat Sagdiyev, "Great Success"!
+In my opinion, this led to a functional and "not-ugly" looking app. In the words of Borat Sagdiyev, "Great Success"! Yes, it's only written for a modern iPhone (or equivalent) screen, but it's written for two specific people! Okay, okay, I'll make it responsive.
 
 There were definitely some cool little tricks used along the way - e.g. taking a ***very*** grey and white background image and using one of the greens in my palette as a background-color over the top of this, with opacity set to 0.1 to provide a tint to the app - however, with this being the first project worked on since returning from injury, I'm likely to spend some more time working on my design chops going forward given the struggles I face in this area!
 
@@ -49,3 +51,4 @@ At this point, it's very much a case of tidying up some styling and incorporatin
 * When selecting a flavorType, it may be helfpul for a user to be able to select multiple options (e.g. maybe they're craving a rice dish and would be open to both Chinese and Japanese cuisines).
 * Offering a truly random experience at the click of a button, although this does fly in the face of the app's initial purpose.
 * Displaying multiple options once the selection aspect of the user flow is completed, if multiple options are available. This would probably mean implementing some form of carousel, as opposed to jamming up the screen with a bunch of text.
+* You caught me, I'll make it responsive. Happy now?
