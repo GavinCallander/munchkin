@@ -23,7 +23,7 @@ export const Picker = props => {
             // using currentField of the current item and add non-qualifying indices to indicesToRemove
             // in both cases, unshift rather than push to make splicing possible
             // if questionIndex is 0, check for values higher than selection
-            // if (questionIndex === 0 && itemsArr[i][currentField] > selection) {
+            // if (questionIndex === 0 && itemsArr[i][currentField] > selectixwon) {
             //     indicesToRemove.unshift(i);
             // }
             if (questionIndex === 0) {

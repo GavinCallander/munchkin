@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Munchkin
+## Getting Started
+If you want to snag this little bad boy for yourself, fork and clone the repo and get going! It's well commented (in my opinion) so should be easy enough to get your head around.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If, additionally, you are one of my lil target users, data.json is your friend. Once you've updated the object, submit your pull request and I'll get it merged if everything's all good!
 
-## Available Scripts
+## Overview
+Munchkin is a fun little web app that allows users to whittle down a list of lunch options to a single suggestion based on their preferences at the time of use.
 
-In the project directory, you can run:
+It was initially created for friends - two sisters who happen to work in the same office - as a way of making lunch selection more fun than using the spreadsheet based system previously in place. The name - Munchkin - reflects this, being made up of Munch (cause I'm Scottish and why say eat when you can say munch) and Kin (cause kin is family).
 
-### `yarn start`
+I know.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Too cute.**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The idea was to create something in which the data structure being used could be a sort of living document and grow with their experiences and tastes while maintaining functionality throughout.
 
-### `yarn test`
+## Development
+Decisions around the tech to be used in the application was fairly straight forward. The decision to use React was made simple given the obvious benefits of state being able to assist with conditionally rendering questions and options, with `questionIndex` being central to the user flow. Additionally, I chose to use vanilla CSS rather than a pre-processor for the purpose of speed, although the lack of mixins is something I lamented throughout the process, as indicated by my commit messages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design
+From a design perspective, as someone who is admittedly inexperienced and lacking possession of natural UX or design talent, I wanted to make it as simple as possible. The thought process was, essentially:
 
-### `yarn build`
+* Hope (one of said sisters) loves green, let's make it green
+* Everyone like centered stuff
+* Don't overreach and make it terrible
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In my opinion, this led to a functional and "not-ugly" looking app. In the words of Borat Sagdiyev, "Great Success"!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+There were definitely some cool little tricks used along the way - e.g. taking a ***very*** grey and white background image and using one of the greens in my palette as a background-color over the top of this, with opacity set to 0.1 to provide a tint to the app - however, with this being the first project worked on since returning from injury, I'm likely to spend some more time working on my design chops going forward given the struggles I face in this area!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For those of you who are interested, the background used on this site can be found [here](https://www.toptal.com/designers/subtlepatterns/funky-lines/). Toptal has some great stuff and have been a recommendation to students of mine for some time now.
 
-### `yarn eject`
+## Data
+The initial data structure I was given was a spreadsheet and, if you've looked at `data.json`, you probably have an idea of what it looked like. While some changes were made - no matter what you tell me, I refuse to include "subtle" as a value on flavorType - my goal was to remain as close to these initial values as possible, with only a couple of changes being made.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The decision to use a JSON object came about for two main reasons:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Ease of use for people with limited technical knowledge, i.e. if you know Python (as certainly one of my target users does) it's just lists and dictionaries and should be fairly familiar.
+* Scalability: as stated earlier, I wanted an app that could grow without breaking changes coming from additional data being added.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In addition, being able to have questions which corresponded directly to the items and items' fields seemed to be the easiest way to handle user flow (again scalability) and meant that having an index which incremented with user choice allowed for a ~~relatively~~ seamless user flow.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Future Updates
+At this point, it's very much a case of tidying up some styling and incorporating some additional little flairs into the CSS, however, I do have a few ideas as to potential updates.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* When selecting a flavorType, it may be helfpul for a user to be able to select multiple options (e.g. maybe they're craving a rice dish and would be open to both Chinese and Japanese cuisines).
+* Offering a truly random experience at the click of a button, although this does fly in the face of the app's initial purpose.
+* Displaying multiple options once the selection aspect of the user flow is completed, if multiple options are available. This would probably mean implementing some form of carousel, as opposed to jamming up the screen with a bunch of text.
