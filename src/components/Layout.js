@@ -1,6 +1,6 @@
 export const Footer = () => (
     <div className="footer">
-        <p className="heading heading--small">All rights reserved No Beard Development 2021</p>
+        <p className="heading heading--small">All rights reserved GCWebDev 2022</p>
     </div>
 );
 
